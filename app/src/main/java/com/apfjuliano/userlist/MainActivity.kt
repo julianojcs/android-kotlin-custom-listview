@@ -2,12 +2,12 @@ package com.apfjuliano.userlist
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.widget.ListView
 
 class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
-        super.onCreate(savedInstanceState, persistentState)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
 
         val userList = mutableListOf<User>()
         for (i in 1..20) {
