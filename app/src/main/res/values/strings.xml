@@ -5,4 +5,9 @@
     <string name="logout">Logout</string>
     <string name="avatar_image">Avatar Image</string>
     <string name="profile_name">Juliano Costa</string>
+    <string name="receber_email">Deseja receber e-mail?</string>
+    <string name="receber_sms">Deseja receber SMS?</string>
+    <string name="salvar_preferencias">Salvar Preferências</string>
+    <string name="DEFAULT_AGE_OF_EXPERIENCE">0</string>
+    <string name="age_of_experience">Age of experience</string>
 </resources>
